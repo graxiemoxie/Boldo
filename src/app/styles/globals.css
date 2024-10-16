@@ -19,14 +19,22 @@
 }
 
 body {
+  width: 100vw;
   color: var(--foreground);
   background: var(--background);
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  overflow-x: hidden;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  .custom-container {
+    width: 80%;
+    max-width: 1200px;
+  }
 }
+

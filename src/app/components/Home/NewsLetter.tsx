@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewsLetter = () => {
   return (
-      <section className='max-w-80 mx-auto pt-10 pb-20'>
+      <section className='custom-container mx-auto pt-10 pb-20'>
           <div className="bg-dark-blue  h-[391px] relative rounded-xl w-full z-10 overflow-hidden flex flex-col items-center justify-center">
                <div className="bg-[#1C3D5B] -z-10 w-[1000px] h-[500px] rounded-b-full absolute -top-[300px] -right-[340px]"></div>
           <h3 className='font-manrope text-5xl leading-72 text-center max-w-[716px]'>An enterprise template to ramp up your company website</h3>

@@ -7,7 +7,7 @@ const OurServices = () => {
     
   return (
       <section id='services' className='text-black mt-24'>
-          <div className=' max-w-80 mx-auto py-24 flex flex-col items-center justify-center'>
+          <div className=' custom-container mx-auto py-24 flex flex-col items-center justify-center'>
           <h3 className='text-lg leading-8 text-center'>Our Services</h3>
           <h2 className='text-5xl text-manrope w-[842px] text-center mt-4 mb-20 font-normal'>Handshake infographic mass market crowdfunding iteration.</h2>
           <div>

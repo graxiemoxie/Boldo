@@ -10,7 +10,7 @@ const CustomerConnect = () => {
     
     return (
       <>
-      <section className='max-w-80 mx-auto py-32 bg-white text-dark-blue flex flex-row  justify-around'>
+      <section className='custom-container mx-auto py-32 bg-white text-dark-blue flex flex-row  justify-around'>
           <div className='relative'>
               <Image src={"/images/man_on_phone.png"} alt='customer connect' width={494} height={506} />
               <div className='absolute -bottom-20 right-14 rounded-xl text-dark-blue w-[251px] h-[388px] bg-white shadow-custom font-manrope flex gap-5 items-center justify-center flex-col'>
@@ -31,7 +31,7 @@ const CustomerConnect = () => {
               <button type="button" className='py-4 px-12 bg-dark-blue rounded-[56px] mt-10 text-lg text-white font-bold'>Start now</button>
           </div>
             </section>
-            <section className='max-w-80 mx-auto pt-32 pb-60 bg-white text-dark-blue flex flex-row items-center justify-around'>
+            <section className='custom-container mx-auto pt-32 pb-60 bg-white text-dark-blue flex flex-row items-center justify-around'>
                 <div className='max-w-[493px]'>
                     <h4 className='text-4xl font-manrope mb-10 leading-56 text-black'>We connect our customers with the best, and help them keep up-and stay open.</h4>
                     <ul className='text-black'>

@@ -3,9 +3,8 @@ import React from 'react'
 
 const OfficeSpace = () => {
   return (
-      <section className='text-dark-blue py-24 w-4/5 mx-auto'>
-          <div className='bg-customer-connect bg-fixed bg-cover bg-center w-[1100px] h-[403px] relative'></div>
-          {/* <Image src={"/images/customer-connect-img.jpg"} alt='customer connect' width={1100} height={403}  className='object-cover w-full'/>   */}
+      <section className='text-dark-blue py-24 custom-container mx-auto'>
+          <div className='bg-customer-connect bg-fixed bg-cover bg-center w-[1100px] h-[403px] rounded-3xl relative mx-auto'></div>
           <div className='flex items-center justify-between pt-12'>
               <p className='font-manrope max-w-[500px] text-black text-4xl leading-56'>We connect our customers with the best, and help them keep up-and stay open.</p>
               <ul className='w-full max-w-[500px]'>

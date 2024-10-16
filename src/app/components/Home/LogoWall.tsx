@@ -5,7 +5,7 @@ import { logos } from '../../constants';
 const LogoWall = () => {
   
   return (
-    <div className='max-w-80 mx-auto overflow-hidden mt-20 relative'>
+    <div className='custom-container mx-auto overflow-hidden mt-20 relative'>
       <div className='flex  animate-scroll justify-between gap-12'>
         {Array(6).fill(logos).flat().map((logo, index) => (
         <Image

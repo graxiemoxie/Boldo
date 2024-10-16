@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/Home/HeroSection";
 import LogoWall from "./components/Home/LogoWall";
 import NewsLetter from "./components/Home/NewsLetter";
-import OfficeSpace from "./components/OfficeSpace";
+import OfficeSpace from "./components/Home/OfficeSpace";
 import OurBlog from "./components/Home/OurBlog";
 import OurServices from "./components/Home/OurServices";
 

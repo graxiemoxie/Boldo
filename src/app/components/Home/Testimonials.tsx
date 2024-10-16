@@ -5,7 +5,7 @@ import Image from 'next/image'
 const EnterPriceTemplate = () => {
     
     return (
-      <section className='my-24 mx-auto max-w-80'>
+      <section className='my-24 mx-auto custom-container'>
       <div className='flex flex-row justify-between mb-16'>
                 <h5 className='text-5xl self-start leading-[72px] font-manrope max-w-[716px]'>An enterprise template to ramp up your company website</h5>
                 <div className='self-end h-20 w-[172px] flex justify-between'>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-      <footer className='flex flex-row max-w-80 mx-auto gap-28 py-24'>
+      <footer className='flex flex-row custom-container mx-auto gap-28 py-24'>
           <div>
               <Link href={"/"}><Image src={"/images/footer_logo.svg"} alt='logo' width={156} height={41} /></Link>
               <p className='text-base leading-7 text-gray-2 max-w-[300px] mt-10 mb-16'>Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>

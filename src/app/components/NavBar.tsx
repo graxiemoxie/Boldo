@@ -4,7 +4,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className='flex flex-row justify-between items-center max-w-80 mx-auto my-10'>
+    <nav className='flex flex-row justify-between items-center custom-container mx-auto my-10'>
       <Link href={'/'}><Image src={'/images/boldoLogo.svg'} alt='logo' width={162.22} height={42} /></Link>
       <ul className='flex flex-row w-[419px] justify-between items-center'>
         <li className='capitalize text-opensans text-base hover:underline font-semibold'><Link href={'/product'}>product</Link></li>
